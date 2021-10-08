@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import LargeCards from './LargeCard'
+import SmallCard from '../Components/SmallCard'
 
 
 const TestHeader = styled.h1`
@@ -35,6 +36,12 @@ margin-top:20px;
 font-size:20px;
 `;
 
+const SmallCardContainer = styled.div`
+display:flex;
+justify-content:flex-end;
+margin-top:-60px;
+`;
+
 export default function About() {
   return (
     <>
@@ -48,6 +55,9 @@ export default function About() {
         <StyledButtons>Contact me!</StyledButtons>
         <StyledButtons>Resume</StyledButtons>
       </ButtonContainer>
+      <SmallCardContainer>
+        <SmallCard/>
+      </SmallCardContainer>
     </>
   )
 }
