@@ -1,0 +1,11 @@
+[{
+  "projectname":"My Portfolio",
+  "imgPreview":"https://i.ibb.co/nLjBPxb/portfolio.png",
+  "About": "My portfolio site is also a portfolio piece. This was originally made in HTML CSS and JS. I decided to convert it to React to show more of my Front End Skills",
+  "Technologies and Libraries Used": "React JS Styled Components"
+},
+{
+  "projectname":"NookDepot",
+  "imgPreview": "https://i.ibb.co/VD592ck/Nook-Depot.png",
+  "About": "This is my final project from General Assembly's Software Engineering "
+}]
