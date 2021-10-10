@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Link } from "react-router-dom";
+
 
 
 export default function NavBar(props) {
@@ -38,21 +40,25 @@ export default function NavBar(props) {
         <LinkedInIcon />
         <GitHubIcon/>
         </TextContainer>
+          <LinkText>
+            <Link exact to='/about-me'>
+              <p>About Me</p>
+              </Link>
+          </LinkText>
+        {/* <LinkText>
+          <Link exact to='/experience'>
+            <p>Experience</p>
+            </Link>
+        </LinkText> */}
         <LinkText>
-          <p>About Me</p>
-        </LinkText>
-        <LinkText>
-          <p>Experience</p>
-        </LinkText>
-        <LinkText>
-          <p>Projects/Skills</p>
+          <p>Projects</p>
         </LinkText>
         <LinkText>
           <p>Resume</p>
         </LinkText>
         <LinkText>
           <p>Contact Me</p>
-        </LinkText>
+          </LinkText>
     </DivContainer>
     </>
   )

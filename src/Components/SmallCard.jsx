@@ -24,6 +24,7 @@ export default function SmallCard() {
       <SmallContainer>
         <div>
           <h3>Technologies I know and Tools I use</h3>
+          <div>
           <DiHtml5 style={{fontSize:'2em',}}/>
           <DiCss3 style={{fontSize:'2em',}}/>
           <DiJavascript style={{fontSize:'2em',}}/>
@@ -34,6 +35,7 @@ export default function SmallCard() {
           <DiRuby style={{fontSize:'2em',}}/>
           <DiRor style={{fontSize:'2em',}}/>
           <DiGit style={{fontSize:'2em',}}/>
+          </div>
         </div>
       </SmallContainer>
       

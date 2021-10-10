@@ -34,6 +34,7 @@ height:4rem;
 width:15rem;
 margin-top:20px;
 font-size:20px;
+margin-right:20px;
 `;
 
 const SmallCardContainer = styled.div`
