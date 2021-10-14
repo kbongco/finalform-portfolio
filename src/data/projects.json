@@ -1,0 +1,23 @@
+[{
+  "projectname":"My Portfolio",
+  "imgPreview":"https://i.ibb.co/nLjBPxb/portfolio.png",
+  "About": "My portfolio site is also a portfolio piece. This was originally made in HTML CSS and JS. I decided to convert it to React to show more of my Front End Skills",
+  "Technologies and Libraries Used": "React JS, Styled Components, deployed via Netlify."
+},
+{
+  "projectname":"NookDepot",
+  "imgPreview": "https://i.ibb.co/VD592ck/Nook-Depot.png",
+  "About": "This is my final project from General Assembly's Software Engineering. Showing off my love of video games and the Animal Crossing series and influenced from Etsy, Amazon, and Nookazon. I decided to create a site similar to Nookazon, except for trading for DIY items in the newest Animal Crossing games.",
+  "Technologies and Libraries Used":"Front End: ReactJS, CSS. BackEnd: Ruby & Ruby on Rails, PostGres Database. Backend deployed via Heroku and FrontEnd deployed via Netlify"
+},
+{
+  "projectname":"EHR Rescue Redesign",
+  "imgPreview":"https://i.ibb.co/x3mT4hX/EHR.png",
+  "About":"This is the third project done during General Assembly's Software Engineering Immersive. A collaborative project done between 3 other SEI fellows and a group of UX designers, a redesign of the website. ",
+  "Technologies and Libraries Used": "Front End: React JS, CSS. BackEnd: Express, Mongoose, MongoDB. BackEnd deployed via Heroku and FrontEnd deployed via Netlify"
+},
+{
+  "projectname":"Rhy-Finder",
+  "imgPreview": "https://i.ibb.co/c2GBhp7/Rhy-Finder.png",
+  "About":""
+}]

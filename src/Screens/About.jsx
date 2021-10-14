@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import LargeCards from './LargeCard'
 import SmallCard from '../Components/SmallCard'
+import { Link } from "react-router-dom";
 
 
 const TestHeader = styled.h1`
@@ -53,8 +54,12 @@ export default function About() {
         </PhotoContainer>
       </div>
       <ButtonContainer>
-        <StyledButtons>Contact me!</StyledButtons>
-        <StyledButtons>Resume</StyledButtons>
+        <a href='https://forms.gle/AeaS2vn2A3axN1pF8'>
+          <StyledButtons>Contact me!</StyledButtons>
+          </a>
+        <Link exact to ='/resume'>
+          <StyledButtons>Resume</StyledButtons>
+        </Link>
       </ButtonContainer>
       <SmallCardContainer>
         <SmallCard/>
