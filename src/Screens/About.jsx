@@ -54,7 +54,9 @@ export default function About() {
         </PhotoContainer>
       </div>
       <ButtonContainer>
-        <StyledButtons>Contact me!</StyledButtons>
+        <a href='https://forms.gle/AeaS2vn2A3axN1pF8'>
+          <StyledButtons>Contact me!</StyledButtons>
+          </a>
         <Link exact to ='/resume'>
           <StyledButtons>Resume</StyledButtons>
         </Link>

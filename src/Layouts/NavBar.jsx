@@ -82,7 +82,8 @@ export default function NavBar(props) {
           </Link>
         </LinkText>
         <LinkText>
-          <p>Contact Me</p>
+          <a href='https://forms.gle/AeaS2vn2A3axN1pF8'><p>Contact Me</p>
+          </a>
         </LinkText>
       </DivContainer>
     </>
