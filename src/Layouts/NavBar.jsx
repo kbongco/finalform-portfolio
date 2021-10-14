@@ -56,8 +56,8 @@ export default function NavBar(props) {
           <h5>Front End Developer</h5>
           <div>
             <SocialIcons>
-              <LinkedInIcon />
-              <GitHubIcon />
+              <a href='https://www.linkedin.com/in/kathleen-bongco-11843197/'><LinkedInIcon /></a>
+              <a href='http://github.com/kbongco'><GitHubIcon /></a>
             </SocialIcons>
           </div>
         </TextContainer>
